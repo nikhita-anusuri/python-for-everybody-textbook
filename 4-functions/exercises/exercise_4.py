@@ -3,7 +3,7 @@ def compute_pay():
     rate = int(input("Please enter the rate: "))
     if hours > 40:
         overtime_hours = hours - 40
-        pay = ((pay-overtime_hours)*rate)+(overtime_hours*(rate*1.5))
+        pay = ((hours-overtime_hours)*rate)+(overtime_hours*(rate*1.5))
     else:
         pay = hours*rate
 
