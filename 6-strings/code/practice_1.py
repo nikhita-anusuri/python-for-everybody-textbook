@@ -9,3 +9,7 @@ while index < len(fruit):
     print(letter)
     # increase index by 1
     index = index + 1
+
+# another way to write a traversal
+for char in fruit:
+    print(char)
