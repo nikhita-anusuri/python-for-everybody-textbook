@@ -15,3 +15,7 @@ print(t)
 t = ['pining', 'for', 'the', 'fjords']
 delimiter = ' '
 print(delimiter.join(t))
+
+# append method modifies a list
+# but the + operator creates a new list
+# slicing creates a new list
