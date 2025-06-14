@@ -26,5 +26,5 @@ for key, val in list(counts.items()):
 
 lst.sort(reverse=True)
 
-for key, val in lst[:10]:
-    print(key, val)
+for count, word in lst[:10]:
+    print(word, count)
